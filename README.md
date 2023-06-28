@@ -7,6 +7,10 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 
 [Github site](https://github.com/Read-Lab-Confederation/github-collab-practice) for practising github pushes and pulls.
 
-Need a list of software for conda environment.
+**Agenda for thurs 29th June 2023**
 
-Andrei's test pull
+1. Clone the github repo
+2. Create conda environments based on YAML. (Any other softwhere we need to add to the environment , like nextflow?)
+3. Download test data sets
+4. Try runing the bash scripts?
+5. Decide tasks?
