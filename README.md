@@ -16,9 +16,13 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
    
    ```conda activate hack2```
 4. Download test data sets
-5. Download kraken database
+5. Download kraken database and the AMR gene database
 
 ```wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08gb_20230605.tar.gz```
+
+(move the kraken database outside of your github directory)
+
+```wget https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMR_CDS```
 
 6. Try runing the bash scripts?
 7. Decide tasks?
