@@ -26,14 +26,17 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 
 ```wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08gb_20230605.tar.gz```
 
-Create kma index
-
-```kma index -i AMR_CDS -o templates```
-
-
 (move the kraken database outside of your github directory)
 
 ```wget https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMR_CDS```
 
-6. Try runing the bash scripts?
-7. Decide tasks?
+Create kma index
+
+```kma index -i AMR_CDS -o templates```
+
+**Agenda for friday 29th June 2023**
+
+1. Downsample the synthetic datasets?
+2. One group work on Rscript
+3. The other group work on converting the existing shell script to nextflow
+4. Docker container?
