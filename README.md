@@ -16,5 +16,9 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
    
    ```conda activate hack2```
 4. Download test data sets
-5. Try runing the bash scripts?
-6. Decide tasks?
+5. Download kraken database
+
+```wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08gb_20230605.tar.gz```
+
+6. Try runing the bash scripts?
+7. Decide tasks?
