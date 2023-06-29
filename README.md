@@ -11,6 +11,7 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 
 1. Clone the github repo
 2. Create conda environments based on YAML. (Any other softwhere we need to add to the environment , like nextflow?)
+   
    ```conda create -c bioconda -n hack2 nextflow kma kraken2 csvtk```
    
    ```conda activate hack2```
