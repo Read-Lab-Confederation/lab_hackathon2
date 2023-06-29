@@ -12,10 +12,16 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 1. Clone the github repo
 2. Create conda environments based on YAML. (Any other softwhere we need to add to the environment , like nextflow?)
    
-   ```conda create -c bioconda -n hack2 nextflow kma kraken2 csvtk```
+```conda create -c bioconda -n hack2 nextflow kma kraken2 csvtk```
    
-   ```conda activate hack2```
+```conda activate hack2```
+   
 4. Download test data sets
+
+```wget https://zenodo.org/record/6543357/files/simulated_metagenome_1.fq.gz?download=1```
+
+```wget https://zenodo.org/record/6543357/files/simulated_metagenome_2.fq.gz?download=1```
+
 5. Download kraken database and the AMR gene database
 
 ```wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08gb_20230605.tar.gz```
