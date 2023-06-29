@@ -20,6 +20,11 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 
 ```wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08gb_20230605.tar.gz```
 
+Create kma index
+
+```kma index -i AMR_CDS -o templates```
+
+
 (move the kraken database outside of your github directory)
 
 ```wget https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMR_CDS```
