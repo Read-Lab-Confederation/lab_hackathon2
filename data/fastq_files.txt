@@ -1,0 +1,3 @@
+From:  https://zenodo.org/record/6543357
+wget https://zenodo.org/record/6543357/files/simulated_metagenome_1.fq.gz?download=1
+wget https://zenodo.org/record/6543357/files/simulated_metagenome_2.fq.gz?download=1
