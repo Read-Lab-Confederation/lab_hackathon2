@@ -38,5 +38,6 @@ Create kma index
 
 1. Downsample the synthetic datasets?
 2. One group work on Rscript
+```Rscript abundanceTable.r --input all_kma_numerators_raw.tab --input_denominator all_kraken_bacteria.tab```
 3. The other group work on converting the existing shell script to nextflow
 4. Docker container?
