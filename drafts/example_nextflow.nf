@@ -1,8 +1,11 @@
 nextflow.enable.dsl = 2
-params.reads = '/home/ubuntu/nextflow/trial/input/*_R{1,2}.fastq.gz'
-params.outdir = "./denovo"
 
-reads = Channel.fromFilePairs(params.reads, checkIfExists: true)
+params.reads = '/home/ubuntu/extraVol/hackaton2/data/fastqs/*_R{1,2}.fastq.gz'
+params.kraken_db = "/home/ubuntu/extraVol/hackaton2/data"
+params.amr_fasta = "/home/ubuntu/extraVol/hackaton2/data/AMR_CDS"
+params.outdir = "/home/ubuntu/extraVol/hackaton2/data"
+
+
 
 // prints to the screen and to the log
 log.info """
@@ -12,6 +15,33 @@ log.info """
          outdir       : ${params.outdir}
          """
          .stripIndent()
+
+
+process index_amr {
+      /* 
+       index AMR fasta file
+    */
+    
+    publishDir "$params.outdir/", 
+        mode: 'copy'
+    /*
+    conda: 'kma'
+    */
+    
+    input:
+    path fasta_file
+    
+    output:
+    path AMR_CDS, emit: index_files
+    
+    script:
+    
+    """
+    kma index -i ${fasta_file} -o AMR_CDS
+    
+    """
+  
+}
 
 
 process fastp {
@@ -38,33 +68,24 @@ process fastp {
     """  
 }  
 
-process assembly {
-    /* 
-       assembly step. here we used a conditional logic to choose the assembler
-    */
-    tag { sample_id }
-    
-    publishDir "$params.outdir/assemblies/", 
-        mode: 'copy'
-    
-    input:
-    tuple val(sample_id), path(filtered)  
-    
-    
-    output:
-    tuple val(sample_id), path("${sample_id}_contigs.fasta")
 
-    script:
-    """
-    /home/ubuntu/spades/SPAdes-3.15.4-Linux/bin/spades.py -1 ${filtered[0]} \
-    -2 ${filtered[1]} -o spades_output \
-    -t 8 --isolate
-    mv ./spades_output/contigs.fasta ${sample_id}_contigs.fasta
-
-    """
+process run_kma {
+  
+  
+  input:
+  tuple val(sample_id), path(filtered), path(index_files)
+  
+  
 }
 
+
 workflow {
-    fastp( reads )
+  input_channel = Channel.fromPath(params.amr_fasta)
+  reads = Channel.fromFilePairs(params.reads, checkIfExists: true)
+  index_amr( input_channel )
+ 
+  fastp( reads )
+  /*  
     assembly( fastp.out.filtered )
+  */
 }
