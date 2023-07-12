@@ -41,3 +41,16 @@ Create kma index
 ```Rscript abundanceTable.r --input all_kma_numerators_raw.tab --input_denominator all_kraken_bacteria.tab```
 3. The other group work on converting the existing shell script to nextflow
 4. Docker container?
+
+
+**Andrei's work on the pipeline**
+- Results and instructions:
+-- wrapped the whole pipeline in nextflow
+-- created new yaml for conda dependencies
+-- to install the environment type: conda env create -fhack2_nextflow.yaml
+-- to run the pipeline type: bash -i runAll.sh
+-- current version uses local paths for references, so data/, bin/, main.nf, and runAll.sh should be in the same directory
+-- data/ directory can be downloaded from s3://transfer-files-emory/amrKma/data.tar.gz
+
+- Need to modify:
+-- edit kma indexing and alignment so that index files would not need to be copped in data directory (currently not elegant)
