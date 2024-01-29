@@ -1,3 +1,1 @@
-2024-01-29 13:21:42	1.9s	maniac_pike	ERR	9c324954e29e050f0249f504cfacb63f	f0ef75b6-fee7-4ef1-b4a1-cf328c5eb724	nextflow main.nf
-2024-01-29 13:37:24	2s	silly_gautier	ERR	9c324954e29e050f0249f504cfacb63f	8253869a-6290-4dff-a0ae-0fa198efc2a6	nextflow main.nf
-2024-01-29 13:39:29	18m 23s	intergalactic_lorenz	ERR	9c324954e29e050f0249f504cfacb63f	09ec4103-0275-4e61-9ab5-3f3623a08940	nextflow main.nf
+2024-01-29 14:14:18	17m 28s	magical_pike	ERR	9c324954e29e050f0249f504cfacb63f	f4263777-ea98-46c9-acf4-a068efdf4479	nextflow run main.nf
