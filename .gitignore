@@ -7,6 +7,13 @@ work/
 #Nextflow output
 output/
 
+#Nextflow log directory
+/.nextflow
+
+#nextflow logs
+
+.nextflow*
+
 # History files
 .Rhistory
 .Rapp.history
