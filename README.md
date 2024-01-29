@@ -7,6 +7,24 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 
 [Github site](https://github.com/Read-Lab-Confederation/github-collab-practice) for practising github pushes and pulls.
 
+**January 2024 Hackathon**
+Prepating the local environment
+git clone git@github.com:Read-Lab-Confederation/lab_hackathon2.git
+conda create -c bioconda -n hack2 nextflow kma kraken2 csvtk fastp
+conda activate hack2
+
+add data (create data directory if it doesnt already exist)
+
+cd lab_hackathon2/data/
+wget https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMR_CDS
+mkdir fastqs
+cd fastqs
+wget -O simulated_metagenome_R1.fastq.gz https://zenodo.org/record/6543357/files/simulated_metagenome_1.fq.gz?download=1
+wget -O simulated_metagenome_R2.fastq.gz https://zenodo.org/record/6543357/files/simulated_metagenome_2.fq.gz?download=1
+cd ../
+wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08gb_20230605.tar.gz
+tar -xvzf k2_standard_08gb_20230605.tar.gz
+
 **Agenda for thurs 29th June 2023**
 
 1. Clone the github repo

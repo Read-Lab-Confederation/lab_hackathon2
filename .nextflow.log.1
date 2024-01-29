@@ -1,0 +1,111 @@
+Jan-29 13:37:23.942 [main] DEBUG nextflow.cli.Launcher - $> nextflow main.nf
+Jan-29 13:37:24.046 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.1
+Jan-29 13:37:24.076 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/tread/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.3,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.1
+Jan-29 13:37:24.091 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-29 13:37:24.092 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-29 13:37:24.096 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jan-29 13:37:24.111 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-29 13:37:24.229 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jan-29 13:37:24.258 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [silly_gautier] DSL2 - revision: 9c324954e2
+Jan-29 13:37:24.259 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-29 13:37:24.259 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jan-29 13:37:24.269 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/tread/.nextflow/secrets/store.json
+Jan-29 13:37:24.277 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@67ec8477] - activable => nextflow.secret.LocalSecretsProvider@67ec8477
+Jan-29 13:37:24.374 [main] DEBUG nextflow.Session - Session UUID: 8253869a-6290-4dff-a0ae-0fa198efc2a6
+Jan-29 13:37:24.374 [main] DEBUG nextflow.Session - Run name: silly_gautier
+Jan-29 13:37:24.377 [main] DEBUG nextflow.Session - Executor pool size: 80
+Jan-29 13:37:24.387 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-29 13:37:24.408 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=240; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-29 13:37:24.441 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.1 build 5891
+  Created: 12-01-2024 22:01 UTC (17:01 EDT)
+  System: Linux 4.19.0-14-amd64
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 17.0.10-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 71095@emergent [170.140.205.51]
+  CPUs: 80 - Mem: 944.3 GB (3.4 GB) - Swap: 976 MB (0)
+Jan-29 13:37:24.484 [main] DEBUG nextflow.Session - Work-dir: /home/tread/HACKATHON2/lab_hackathon2/work [ext2/ext3]
+Jan-29 13:37:24.517 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-29 13:37:24.524 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jan-29 13:37:24.542 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-29 13:37:24.548 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 81; maxThreads: 1000
+Jan-29 13:37:24.590 [main] DEBUG nextflow.Session - Session start
+Jan-29 13:37:25.350 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-29 13:37:25.363 [main] INFO  nextflow.Nextflow - 
+Denovo Pipeline (version 1)
+===================================
+reads        : /home/tread/HACKATHON2/lab_hackathon2/data/fastqs/*_R{1,2}.fastq.gz
+outdir       : /home/tread/HACKATHON2/lab_hackathon2/output
+
+Jan-29 13:37:25.460 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-29 13:37:25.460 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-29 13:37:25.465 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jan-29 13:37:25.468 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=80; memory=944.3 GB; capacity=80; pollInterval=100ms; dumpInterval=5m
+Jan-29 13:37:25.470 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jan-29 13:37:25.546 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-29 13:37:25.546 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-29 13:37:25.555 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-29 13:37:25.556 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-29 13:37:25.561 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-29 13:37:25.561 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-29 13:37:25.572 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-29 13:37:25.572 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-29 13:37:25.576 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-29 13:37:25.576 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-29 13:37:25.580 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-29 13:37:25.580 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-29 13:37:25.585 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-29 13:37:25.585 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-29 13:37:25.589 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: run_kma, format_kma_res, join_cat, join_kraken, run_kraken, index_amr, abundance_tab, fastp
+Jan-29 13:37:25.590 [main] DEBUG nextflow.Session - Igniting dataflow network (10)
+Jan-29 13:37:25.594 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > index_amr
+Jan-29 13:37:25.595 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /home/tread/HACKATHON2/lab_hackathon2/data/fastqs/; pattern: *_R{1,2}.fastq.gz; options: [checkIfExists:true]
+Jan-29 13:37:25.595 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > fastp
+Jan-29 13:37:25.595 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > run_kma
+Jan-29 13:37:25.596 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > format_kma_res
+Jan-29 13:37:25.596 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > join_cat
+Jan-29 13:37:25.596 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > run_kraken
+Jan-29 13:37:25.597 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > join_kraken
+Jan-29 13:37:25.597 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > abundance_tab
+Jan-29 13:37:25.598 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_c961a7f68d8a434d: /home/tread/HACKATHON2/lab_hackathon2/main.nf
+Jan-29 13:37:25.598 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jan-29 13:37:25.598 [main] DEBUG nextflow.Session - Session await
+Jan-29 13:37:25.715 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-29 13:37:25.717 [Task submitter] INFO  nextflow.Session - [76/e11b61] Submitted process > index_amr (1)
+Jan-29 13:37:25.721 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-29 13:37:25.722 [Task submitter] INFO  nextflow.Session - [da/5d1d6a] Submitted process > fastp (filter simulated_metagenome)
+Jan-29 13:37:25.773 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: fastp (filter simulated_metagenome); status: COMPLETED; exit: 127; error: -; workDir: /home/tread/HACKATHON2/lab_hackathon2/work/da/5d1d6a6dec70c683fb13ba9bf30af2]
+Jan-29 13:37:25.776 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=fastp (filter simulated_metagenome); work-dir=/home/tread/HACKATHON2/lab_hackathon2/work/da/5d1d6a6dec70c683fb13ba9bf30af2
+  error [nextflow.exception.ProcessFailedException]: Process `fastp (filter simulated_metagenome)` terminated with an error exit status (127)
+Jan-29 13:37:25.806 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'fastp (filter simulated_metagenome)'
+
+Caused by:
+  Process `fastp (filter simulated_metagenome)` terminated with an error exit status (127)
+
+Command executed:
+
+  fastp -i simulated_metagenome_R1.fastq.gz -I simulated_metagenome_R2.fastq.gz       -o simulated_metagenome_filt_R1.fastq.gz -O simulated_metagenome_filt_R2.fastq.gz       --detect_adapter_for_pe -w 8 -j simulated_metagenome.fastp.json
+
+Command exit status:
+  127
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 2: fastp: command not found
+
+Work dir:
+  /home/tread/HACKATHON2/lab_hackathon2/work/da/5d1d6a6dec70c683fb13ba9bf30af2
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+Jan-29 13:37:25.816 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `fastp (filter simulated_metagenome)` terminated with an error exit status (127)
+Jan-29 13:37:25.826 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jan-29 13:37:25.827 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jan-29 13:37:25.827 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jan-29 13:37:25.834 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (1)
+Jan-29 13:37:25.842 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=1; succeedDuration=0ms; failedDuration=15ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+Jan-29 13:37:26.030 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jan-29 13:37:26.037 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
