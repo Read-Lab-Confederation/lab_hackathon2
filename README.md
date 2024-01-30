@@ -11,6 +11,8 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 
 *Preparing the local environment*
 
+** Note: as of 2024-01-30 there is a bug in the nextflow script when only ONE pair of fastqs is in the input directory**≈y
+
 ```git clone git@github.com:Read-Lab-Confederation/lab_hackathon2.git```
 
 ```conda create -c bioconda -n hack2 nextflow kma kraken2 csvtk fastp```
@@ -30,6 +32,10 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 ```wget -O simulated_metagenome_R1.fastq.gz https://zenodo.org/record/6543357/files/simulated_metagenome_1.fq.gz?download=1```
 
 ```wget -O simulated_metagenome_R2.fastq.gz https://zenodo.org/record/6543357/files/simulated_metagenome_2.fq.gz?download=1```
+
+```# cp small fastq files from Michael David metagenome project
+
+cp /mnt/tiramisu/emergent/projects/SEMAPHORE/data/fastqs/semaphore/microbiome/data_files/S.190905.00152_* ./```
 
 ```cd ../```
 

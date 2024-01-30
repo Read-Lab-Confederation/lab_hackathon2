@@ -7,8 +7,8 @@ work/
 #Nextflow output
 output/
 
-#Nextflow log directory
-/.nextflow
+#Nextflow cache  directory
+.nextflow/
 
 #nextflow logs
 

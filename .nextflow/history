@@ -1,1 +1,2 @@
 2024-01-29 14:14:18	17m 28s	magical_pike	ERR	9c324954e29e050f0249f504cfacb63f	f4263777-ea98-46c9-acf4-a068efdf4479	nextflow run main.nf
+2024-01-30 09:18:03	23.4s	sleepy_golick	OK	9c324954e29e050f0249f504cfacb63f	f4263777-ea98-46c9-acf4-a068efdf4479	nextflow run main.nf -resume
