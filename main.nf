@@ -3,11 +3,23 @@
 nextflow.enable.dsl = 2
 
 // set paths
-params.reads = "$baseDir/data/fastqs/*_R{1,2}.fastq.gz"
+params.reads = "$baseDir/data/*_R{1,2}.fastq.gz"
 params.amr_fasta = "$baseDir/data/AMR_CDS"
 params.data_dir = "$baseDir/data"
 params.outdir = "$baseDir/output"
+params.help = ""
 
+def helpMessage() {
+  log.info """
+        Add Help Menu!!
+        """ 
+}
+
+// Show help message
+if (params.help) {
+    helpMessage()
+    exit 0
+}
 
 
 // prints to the screen and to the log
