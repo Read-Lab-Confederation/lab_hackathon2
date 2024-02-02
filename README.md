@@ -100,3 +100,42 @@ Create kma index
     a) edit kma indexing and alignment so that index files would not need to be copped in data directory (currently not elegant)
  
 
+## Install
+wget for yaml
+
+## Preprocessing assumptions
+Fastq files have been filtered for quality, adaptor sequences, optical duplicates, and host reads
+
+## Dependencies
+R, Python, KMA, CSVTK, Kraken2 (version ?), pandas
+
+## Inputs
+- reads in paired fastq files (.gz extension only as of 2024.02.02)
+- out directory
+
+## Example Usage
+main.nf --reads {dir}  --outdir {dir}
+
+## Outputs
+File Name            |     Explanation        
+------------------|--------------
+abundance_plot.png | bar plot of RPKM by gene
+gene_abundance_table.tsv | summarized RPKM values for all samples
+kma_all_joinned.tsv | contains read counts for RPKM calculations (numerator)
+kraken_all_report.tsv | bacterial read count for all samples (denominator)
+
+next up: add an explanation of each column of output file
+
+## Formula
+The formula to calculate gene relative abundances is given by:
+
+\[ \frac{{\text{{Gene Reads}}}}{{\text{{Length of gene per kb}}}} \times (\text{{Bacteria Depth}}) \times 10^9 \]
+
+This formula was adapted from Munk et al. 2022
+
+## Citations
+###Kraken
+Wood, D.E., Lu, J. & Langmead, B. Improved metagenomic analysis with Kraken 2. Genome Biol 20, 257 (2019). [https://doi.org/doi-number](https://doi.org/10.1186/s13059-019-1891-0)
+###Formula
+Munk, P., Brinch, C., Møller, F.D. et al. Genomic analysis of sewage from 101 countries reveals global landscape of antimicrobial resistance. Nat Commun 13, 7251 (2022). [https://doi.org/doi-number](https://doi-org/10.1038/s41467-022-34312-7)
+
