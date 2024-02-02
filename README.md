@@ -9,6 +9,8 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 
 ## January 2024 Hackathon
 
+[Google doc plan for January 2024  hackathon](https://docs.google.com/document/d/1OyDfM0oLvEBRIZ621sURiwpNwNmG9VaofCg61Evyp30/edit#heading=h.hnokuvb05vwf)
+
 *Preparing the local environment*
 
 ** Note: as of 2024-01-30 there is a bug in the nextflow script when only ONE pair of fastqs is in the input directory**≈y
