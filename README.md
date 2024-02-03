@@ -35,9 +35,9 @@ Here is the [the google doc](https://docs.google.com/document/d/1a1NjFz8dDE0VPHw
 
 ```wget -O simulated_metagenome_R2.fastq.gz https://zenodo.org/record/6543357/files/simulated_metagenome_2.fq.gz?download=1```
 
-```# cp small fastq files from Michael David metagenome project
+# cp small fastq files from Michael David metagenome project
 
-cp /mnt/tiramisu/emergent/projects/SEMAPHORE/data/fastqs/semaphore/microbiome/data_files/S.190905.00152_* ./```
+```cp /mnt/tiramisu/emergent/projects/SEMAPHORE/data/fastqs/semaphore/microbiome/data_files/S.190905.00152_* ./```
 
 ```cd ../```
 
@@ -103,7 +103,7 @@ Create kma index
  
 
 ## Install
-wget for yaml
+```wget for yaml```
 
 ## Preprocessing assumptions
 Fastq files have been filtered for quality, adaptor sequences, optical duplicates, and host reads
@@ -112,11 +112,11 @@ Fastq files have been filtered for quality, adaptor sequences, optical duplicate
 R, Python, KMA, CSVTK, Kraken2 (version ?), pandas
 
 ## Inputs
-- reads in paired fastq files (.gz extension only as of 2024.02.02)
-- out directory
+```- reads in paired fastq files (.gz extension only as of 2024.02.02)```
+```- out directory```
 
 ## Example Usage
-main.nf --reads {dir}  --outdir {dir}
+```main.nf --reads {dir}  --outdir {dir}```
 
 ## Outputs
 File Name            |     Explanation        
@@ -136,8 +136,8 @@ The formula to calculate gene relative abundances is given by:
 This formula was adapted from Munk et al. 2022
 
 ## Citations
-###Kraken
+### Kraken
 Wood, D.E., Lu, J. & Langmead, B. Improved metagenomic analysis with Kraken 2. Genome Biol 20, 257 (2019). [https://doi.org/doi-number](https://doi.org/10.1186/s13059-019-1891-0)
-###Formula
+### Formula
 Munk, P., Brinch, C., Møller, F.D. et al. Genomic analysis of sewage from 101 countries reveals global landscape of antimicrobial resistance. Nat Commun 13, 7251 (2022). [https://doi.org/doi-number](https://doi-org/10.1038/s41467-022-34312-7)
 
