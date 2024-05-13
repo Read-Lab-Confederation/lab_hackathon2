@@ -1,2 +1,79 @@
-2024-01-29 14:14:18	17m 28s	magical_pike	ERR	9c324954e29e050f0249f504cfacb63f	f4263777-ea98-46c9-acf4-a068efdf4479	nextflow run main.nf
-2024-01-30 09:18:03	23.4s	sleepy_golick	OK	9c324954e29e050f0249f504cfacb63f	f4263777-ea98-46c9-acf4-a068efdf4479	nextflow run main.nf -resume
+2024-04-05 14:23:41	1.5s	soggy_lalande	OK	00000000000000000000000000000000	8c7f186a-0319-483f-920f-b6c63273839d	nextflow run krak.nf
+2024-04-05 14:24:43	29s	suspicious_woese	OK	237f64b88ccfb232e8ea2e3da4860f8a	1c299171-d945-44cb-96c0-f4f2e39bd4f9	nextflow run krak.nf
+2024-04-09 15:56:00	29.7s	big_bell	OK	237f64b88ccfb232e8ea2e3da4860f8a	eaa38a0a-881d-433a-bcf2-db71d0ec1adb	nextflow run krak.nf
+2024-04-09 16:21:11	34.8s	berserk_bardeen	OK	00c6e4a711bc2e35cde6425904a0250b	d67d7ea7-9d55-4454-ab92-f4065dcfc934	nextflow run main_comb.nf
+2024-04-09 16:22:40	-	small_lagrange	-	d333fd90bdffb4816cb0c89ea8eb3cf6	b1b8f98e-6975-4b50-bcc2-5f11ae2bae56	nextflow run main_comb.nf
+2024-04-09 16:31:44	27.3s	thirsty_leakey	ERR	ff3a745e7273a075d8f3b6ea9fab9e95	7f60e9b3-d812-40ad-ad09-e7c72a8b9b19	nextflow run krak.nf
+2024-04-09 16:36:01	2.9s	exotic_babbage	ERR	529ff0e8925454a469fbc86d62358ace	7f60e9b3-d812-40ad-ad09-e7c72a8b9b19	nextflow run krak.nf -resume
+2024-04-09 17:00:56	26.7s	elegant_davinci	ERR	78ae3563f961ea801d8080af9c56acda	6f36fb1a-600b-4034-93cd-936ab8a82916	nextflow run krak.nf
+2024-04-09 17:14:29	27.2s	naughty_church	ERR	e666098c4f5338410b9c08f6ee00e842	d47ae494-730a-4299-8413-51c2a470e13a	nextflow run krak.nf
+2024-04-09 17:21:55	-	irreverent_avogadro	-	649cd498ca3bdf37791204fa2b88f134	e6e805e3-d46b-4679-bf85-25049d756417	nextflow run krak.nf
+2024-04-09 17:25:49	29.1s	big_plateau	OK	25df8bdea6d33b53b2fd588f8f58d1c4	87876a11-bf64-40b3-b42e-b65dae0d9a33	nextflow run krak.nf
+2024-04-09 17:36:26	28.2s	sleepy_kirch	ERR	bcc266de7d35e6180d9b8af96108100e	87ca7d36-1f7c-424b-a934-f5adf7a70b00	nextflow run krak.nf
+2024-04-09 17:39:20	2.8s	lonely_lagrange	ERR	f1791d37174b959612256d059e3e373d	87ca7d36-1f7c-424b-a934-f5adf7a70b00	nextflow run krak.nf -resume
+2024-04-09 17:41:42	17s	magical_tuckerman	OK	026f60870ad0aca108cf195d85ca317e	87ca7d36-1f7c-424b-a934-f5adf7a70b00	nextflow run krak.nf -resume
+2024-04-09 17:48:23	29s	dreamy_wozniak	OK	30ed73e28002be0d1c4d4153330fa3a7	a0b840e3-a9e6-4114-8b8d-a143c0b0f385	nextflow run krak.nf
+2024-04-09 18:50:02	-	nostalgic_swanson	-	d7028c974e071199c3b1e88928e5b496	32759c59-ae89-4eee-8617-06a64dd6ca19	nextflow run krak.nf
+2024-04-09 18:53:33	28.7s	focused_rubens	ERR	3c510c3ce7f4da0520ddfa5458fefc2b	8831ba66-2d3f-40ba-8136-c57254dec884	nextflow run krak.nf
+2024-04-09 19:11:39	29.2s	deadly_bhaskara	ERR	6e1778849943cbf5aa09834e24add660	345e9809-5e9a-4018-895e-610f430ea850	nextflow run krak.nf
+2024-04-09 19:13:36	28.4s	amazing_yonath	ERR	e97b36b054d8f9f0925d13b01faac4e8	598fcd8e-528c-4dd3-a101-3e1966b7c5e5	nextflow run krak.nf
+2024-04-09 19:37:56	-	thirsty_becquerel	-	16bbc253d85879f612ae2c177192353f	598fcd8e-528c-4dd3-a101-3e1966b7c5e5	nextflow run krak.nf -resume
+2024-04-09 19:39:20	-	nauseous_wilson	-	278a91d2b0954c1dba53cd599ed69d61	62632893-3d3f-4dbe-aae7-eb28f56f508a	nextflow run krak.nf
+2024-04-09 21:20:38	30s	irreverent_bose	ERR	88e82338cfc084acc848db02ebd9cdde	9bd6f95b-a259-4376-bf6d-9376a3c9940b	nextflow run krak.nf
+2024-04-09 21:27:39	29.5s	big_swirles	OK	930ca5fc33df0bdc46ded83fe56d136e	bd4601f1-4073-4683-969c-2e8488e81f70	nextflow run krak.nf
+2024-04-09 21:40:18	29s	shrivelled_bassi	OK	930ca5fc33df0bdc46ded83fe56d136e	dbd485af-0750-42e4-b26f-1fa28d005851	nextflow run krak.nf
+2024-04-09 23:21:05	29.8s	adoring_lichterman	OK	2f2b60749705230f0322bb338361717b	21f0071d-5ba1-4363-b7b2-1219af63f078	nextflow run krak.nf
+2024-04-09 23:31:44	-	adoring_hilbert	-	5f7927a4797208b4572628561d6c47bc	b70436aa-ea08-4a6e-a2eb-d7f542412745	nextflow run krak.nf
+2024-04-09 23:32:28	30.5s	boring_curran	OK	d37cfc25c3d05bdad2f9135b8f35f712	211c1558-f228-46d2-b1e1-b88ad669c61e	nextflow run krak.nf
+2024-04-09 23:51:36	28.7s	determined_wright	ERR	40f323263c537e9f7d68d9947fd47b8b	992267e1-480e-40be-9345-0ba358e5c007	nextflow run krak.nf
+2024-04-09 23:53:11	27.5s	awesome_carson	ERR	311714aa1d3c0072e5c6d3cf003b5efd	47f2cd90-52ed-463f-9dfb-a18815ffcca4	nextflow run krak.nf
+2024-04-10 00:04:25	29.2s	distracted_meitner	OK	86911011755bd6b860926d544e42154e	36989c05-a550-4990-9883-b6d979cff3ff	nextflow run krak.nf
+2024-04-10 00:24:38	-	compassionate_descartes	-	43907a26ab4f52c2db957318eb43add3	d86b60b6-6440-4122-ac3d-110c8e40219c	nextflow run krak.nf
+2024-04-10 00:27:12	29.9s	admiring_avogadro	ERR	8cf331435c8ff38baed400d505febb22	2e391114-de5a-4ff3-b4ee-12e037a3f469	nextflow run krak.nf
+2024-04-10 00:33:57	29.2s	ridiculous_leakey	OK	31522d31f562d34612475c5c3c2d071c	30b2cdc3-a0d0-4e85-af87-aa8a5273c0e9	nextflow run krak.nf
+2024-04-10 00:35:52	29.1s	jolly_euclid	OK	31522d31f562d34612475c5c3c2d071c	16b7a3c4-d2b3-43fe-9f6b-2c95fceb73ea	nextflow run krak.nf
+2024-05-01 09:50:08	2m 13s	peaceful_archimedes	OK	31522d31f562d34612475c5c3c2d071c	a72469c5-8e76-4a9f-a444-9ec2a3e32ef4	nextflow run krak.nf
+2024-05-01 10:27:59	29.5s	modest_perlman	OK	e23c75808da90c0783f6ec9206504474	3c1ea1f9-8efa-47c2-9bc6-01b752a5b67b	nextflow run krak.nf
+2024-05-01 11:01:36	-	confident_mandelbrot	-	4e98a77990188263f692cce589fab04b	48e38e93-3ac8-48d8-b598-a9f984614b73	nextflow run krak.nf
+2024-05-01 11:07:56	28.7s	backstabbing_hodgkin	ERR	7a0605b972e0b3952f873d237525db98	12068279-1914-444c-8cfb-4044d2b1c953	nextflow run krak.nf
+2024-05-01 11:10:04	29.8s	exotic_torricelli	ERR	dfbf7d94df8a84dcb440215cf59704a4	30dd50b8-9aa8-41af-acc5-053e8d7ab89a	nextflow run krak.nf
+2024-05-01 11:12:38	4.1s	clever_descartes	ERR	dfbf7d94df8a84dcb440215cf59704a4	30dd50b8-9aa8-41af-acc5-053e8d7ab89a	nextflow run krak.nf -resume
+2024-05-01 11:18:53	31.1s	high_volta	OK	047e5f69fc136ec59628cad9dd5d74af	21525504-a437-4b80-8d14-b4648c197821	nextflow run krak.nf
+2024-05-01 11:47:22	31.8s	admiring_northcutt	OK	98e0602612d2335f1b3d34556912f9d4	b019ed36-8ebd-46b3-8137-63483e5639df	nextflow run krak.nf
+2024-05-01 11:55:19	34.6s	curious_venter	OK	0aa1dc49714c54749d752f93d6cc6020	e2896077-1369-465b-8b5d-afa3a1da6d2b	nextflow run krak.nf
+2024-05-01 11:58:40	38.5s	lethal_monod	OK	29ae6c714f8f32a740420f0a77a51d4c	f0121b1c-ee8b-47c7-8315-0f2b92c7d075	nextflow run krak.nf
+2024-05-01 12:06:19	31.8s	friendly_jepsen	ERR	b5cda754d6bced5fec64b1582d720483	be981c32-04f9-412b-a48f-3939a194e9ec	nextflow run krak.nf
+2024-05-01 12:08:04	30.2s	focused_hamilton	ERR	9a6303a1bd8a993f4c44f3894bf90812	fac5c579-e909-46ae-a6cc-0a11276cb19c	nextflow run krak.nf
+2024-05-01 12:09:39	34.4s	nostalgic_boyd	OK	6c480dfc67b7426d481bb7ac45cd1e66	8bc76c05-5918-441f-ac15-e6ee0a02495a	nextflow run krak.nf
+2024-05-03 09:45:10	2m 16s	big_legentil	OK	18f59b19b651fe2491c7d21a6f69c455	66c82781-7995-4eac-947c-efd9c9be89c1	nextflow run krak.nf
+2024-05-04 21:56:28	2m 39s	trusting_wilson	OK	37d568325ffbe76922813f12130506bf	3408a919-9a85-4b50-b5c4-2e1203982632	nextflow run krak.nf
+2024-05-04 22:01:53	34.3s	special_jang	OK	37d568325ffbe76922813f12130506bf	a8c2f139-5f82-4291-b481-78473ff926fa	nextflow run krak.nf
+2024-05-04 22:03:18	34.7s	romantic_plateau	OK	c6be0b8420412981e75c58dc78fafd12	5c7ce441-648d-47d5-a090-17185af56a5b	nextflow run krak.nf
+2024-05-04 22:05:35	35.1s	desperate_meninsky	OK	3efbf3d5ca3fa98631f97436f75efe17	ce2c4e8a-8972-4d79-bac1-b7135d135278	nextflow run krak.nf
+2024-05-04 22:15:07	-	nice_murdock	-	983b0beb2520203544eaba219e786b55	ba88193a-b4d8-4c4e-ab32-be07b9cc5deb	nextflow run krak.nf
+2024-05-04 22:17:25	-	golden_almeida	-	3e83606215cc631a1390f6643e6bb6c6	3c6e0123-172a-451b-8b31-7085df204de9	nextflow run krak.nf
+2024-05-04 22:19:46	2.9s	stupefied_jones	ERR	cbe9e3f3e745c0fb50489a25452d3793	fc156ea1-e3c0-4b25-bb17-370888daf0d7	nextflow run krak.nf
+2024-05-04 22:26:46	33.9s	soggy_lumiere	OK	bd191e5ac49c306243e93da60d3d1eb5	457aaa8d-a59c-48e2-b3dd-21e3075a8c2d	nextflow run krak.nf
+2024-05-04 22:32:51	35.1s	clever_sinoussi	OK	2feaa573c9906e46845023f4ed1b6450	d0130cdb-90fb-423a-96f4-66c6d0b8d304	nextflow run krak.nf
+2024-05-06 07:40:10	2m 23s	marvelous_gates	OK	2feaa573c9906e46845023f4ed1b6450	37e4463b-6dba-40e7-a4db-35c161dc7be0	nextflow run krak.nf -with-dag flowchart.png
+2024-05-06 07:59:12	3.1s	ecstatic_curry	ERR	a8747af8be13e17492b93c15e797c4a0	8e908d88-7d5c-4ad8-87ad-7a7d9b35b244	nextflow run main.nf
+2024-05-06 21:23:42	16m 30s	tiny_colden	ERR	3c3e5209ee7f0210ae287dcee40edb2a	faffba1a-314a-4362-b180-fbbf8fac0c11	nextflow run krak.nf
+2024-05-06 23:48:14	5m 27s	thirsty_church	ERR	fe939c7d06dd443b614f261010103ff4	fc2b5636-cb32-4f5a-9ece-2e1ba4a944a8	nextflow run krak.nf
+2024-05-07 08:31:15	38.1s	deadly_brown	OK	aa6894d39270cd7a249ec6c5301c640c	f03bbc74-5d74-4e58-bcf5-a0236cb0a0a0	nextflow run krak.nf
+2024-05-07 09:28:03	32.7s	fervent_murdock	ERR	aa6894d39270cd7a249ec6c5301c640c	b04d0c5c-3b98-4b57-9cb6-47cadff69643	nextflow run krak.nf
+2024-05-07 09:30:44	18.1s	hungry_cray	ERR	aa6894d39270cd7a249ec6c5301c640c	f1d46025-3435-4ad8-85af-f289636da1f0	nextflow run krak.nf
+2024-05-07 09:31:24	35.2s	backstabbing_descartes	OK	3986e822a5939b42e4d8a12501d62269	e69c29ac-8667-401f-8c58-4f8a3f8acd34	nextflow run krak.nf
+2024-05-07 14:21:05	32s	sharp_raman	ERR	e756c692fc56bc0d13a645a6bd78d592	27a7d96b-816f-4f68-b97a-847f15b83286	nextflow run krak.nf
+2024-05-07 14:37:10	32.5s	small_legentil	ERR	b94a88e1d239e19e42c1455814fb1f60	ec58323f-5a8d-4ae6-aaad-232380eee621	nextflow run krak.nf
+2024-05-07 14:48:45	-	desperate_booth	-	d3227bd1946b0720aad14de62f6f1c3a	a74da6b1-3fcb-4b12-88db-8114c1fe6513	nextflow run krak.nf
+2024-05-07 14:49:47	33.9s	exotic_woese	ERR	bdaed5b313df5a9fb55c01f678bf069a	a3a08f6e-4498-49f5-b7dd-6ff406a341ab	nextflow run krak.nf
+2024-05-07 15:05:49	52.8s	stoic_neumann	ERR	c7d3ccbfdbef4bafc891a7f420362a0d	eb04686f-c4e1-423c-923a-3a104bdb6051	nextflow run krak.nf
+2024-05-07 15:15:58	49.2s	nostalgic_kalman	ERR	83ee45f6063c141a8865d5c0e52da0ff	7934de8e-83f5-4b7b-a94b-d5bae1e96b44	nextflow run krak.nf
+2024-05-07 15:24:04	33.6s	stupefied_marconi	ERR	dacd2b47b72a8a8d687f8d9682f13726	3b957672-818c-4f4a-b823-0726120d90e0	nextflow run krak.nf
+2024-05-07 15:25:09	35.3s	tiny_marconi	OK	0902b59edd1313f59bed6b4e589443d0	e8d31bc7-e3b4-483e-9f6b-aff5a580e57d	nextflow run krak.nf
+2024-05-08 15:48:58	36.9s	shrivelled_wescoff	OK	0902b59edd1313f59bed6b4e589443d0	7848ab65-103e-4ea2-a62b-3379a98131ec	nextflow run krak.nf
+2024-05-08 15:58:55	5m 8s	astonishing_agnesi	OK	607df3652d349be2c5aaf5baf5b973d1	fb00b7cd-0f4f-41e7-94b5-0a5e22988b33	nextflow run krak.nf
+2024-05-08 16:17:31	5m 7s	stupefied_kowalevski	OK	607df3652d349be2c5aaf5baf5b973d1	25135e75-46f8-46fc-949e-04188186ec14	nextflow run krak.nf
+2024-05-08 16:27:14	5m 5s	berserk_kimura	OK	607df3652d349be2c5aaf5baf5b973d1	69b9e5ea-50b5-4207-a958-f50f16f650d3	nextflow run krak.nf
+2024-05-08 16:56:24	5m 5s	lethal_noyce	OK	607df3652d349be2c5aaf5baf5b973d1	d2a61185-8048-41b5-9ff0-b525e727037f	nextflow run krak.nf
+2024-05-13 13:57:14	5m 54s	exotic_stone	OK	51644deb08a8f2b6e09fb35ec366911c	42647d7e-ebd0-4502-bbec-0681702578e6	nextflow run krak.nf
